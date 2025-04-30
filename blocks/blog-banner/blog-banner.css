@@ -1,0 +1,9 @@
+.blog-banner-wrapper{
+    margin: 2.5rem 185px 0 !important;
+    max-width: 100% !important;
+}
+
+.blog-banner img{
+    min-width: 996px;
+
+}
