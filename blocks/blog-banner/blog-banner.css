@@ -1,3 +1,9 @@
+.blog-banner-container{
+    margin-top: -42 !important;
+    margin-bottom: 0 !important;
+}
+
+
 .blog-banner-wrapper{
     margin: 2.5rem 185px 0 !important;
     max-width: 100% !important;
