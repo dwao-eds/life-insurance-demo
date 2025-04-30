@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .blog-banner-wrapper{
     margin: 2.5rem 185px 0 !important;
     max-width: 100% !important;
@@ -6,4 +7,14 @@
 .blog-banner img{
     min-width: 996px;
 
+=======
+.blog-banner-wrapper{
+    margin: 2.5rem 185px 0 !important;
+    max-width: 100% !important;
+}
+
+.blog-banner img{
+    min-width: 996px;
+
+>>>>>>> 703d5d047a70cb59571ef50d2a69be8ba2813288
 }

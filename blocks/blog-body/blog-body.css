@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .blog-body {
     max-width: 996px !important;
 }
@@ -19,3 +20,26 @@
     padding: 3px 0.5rem 4px;
 }
 
+=======
+.blog-body {
+    max-width: 996px !important;
+}
+
+.blog-body p{
+    margin-bottom: 0 !important;
+}
+
+.blog-pill{
+    background-color: #F2F8FF;
+    border-radius: 4px;
+    color: #0A3252;
+    display: inline-block;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 1.5rem 0 1rem;
+    padding: 3px 0.5rem 4px;
+}
+
+>>>>>>> 703d5d047a70cb59571ef50d2a69be8ba2813288
