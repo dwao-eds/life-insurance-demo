@@ -9,6 +9,10 @@
     max-width: 100% !important;
 }
 
+.blog-banner{
+    min-width: 996px;
+}
+
 .blog-banner img{
     min-width: 996px;
 }
