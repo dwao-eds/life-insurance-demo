@@ -87,3 +87,68 @@
     font-weight: 400;
     font-size: 16px;
 }
+
+.blog-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.help-icon {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0a66c2;
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #0a66c2;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.help-icon:hover {
+  background-color: #eaf4ff;
+}
+
+.help-icon::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/like-blue.svg'); /* Replace with your image URL */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.help-icon p{
+    margin: 0 !important;
+}
+
+.help-desc {
+  margin-left: 10px;
+  color: #333;
+  font-size: 14px;
+}
+
+.share-icon {
+  margin-left: auto;
+  background-color: #1272e2;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-icon img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}

@@ -26,6 +26,18 @@ export default function decorate(block) {
     }
     if (r === 5) {
       row.classList.add("blog-foot");
+      [...row.children].forEach((div, d) => {
+       if (d === 0){
+        div.classList.add("help-icon");
+       }
+       if (d === 1){
+        div.classList.add("help-desc");
+       }
+       if (d === 2) {
+         div.classList.add("share-icon");
+       }
+      });
+
     }
   });
 }
